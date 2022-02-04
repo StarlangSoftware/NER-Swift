@@ -50,7 +50,7 @@ After generating the classification dataset as above, one can use the [Classific
 For Developers
 ============
 You can also see either [Python](https://github.com/starlangsoftware/NER-Py), [Cython](https://github.com/starlangsoftware/NER-Cy), [Java](https://github.com/starlangsoftware/NER),
-[C++](https://github.com/starlangsoftware/NER-CPP), or [C#](https://github.com/starlangsoftware/NER-CS) repository.
+[C++](https://github.com/starlangsoftware/NER-CPP), [Js](https://github.com/starlangsoftware/NER-Js), or [C#](https://github.com/starlangsoftware/NER-CS) repository.
 
 ## Requirements
 
