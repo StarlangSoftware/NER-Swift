@@ -12,14 +12,14 @@ let package = Package(
             targets: ["NER"]),
     ],
     dependencies: [
-        .package(name: "AnnotatedSentence", url: "https://github.com/StarlangSoftware/AnnotatedSentence-Swift.git", .exact("1.0.3"))
+        .package(name: "AnnotatedTree", url: "https://github.com/StarlangSoftware/AnnotatedTree-Swift.git", .exact("1.0.1"))
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "NER",
-            dependencies: ["AnnotatedSentence"]),
+            dependencies: ["AnnotatedTree"]),
         .testTarget(
             name: "NERTests",
             dependencies: ["NER"]),
